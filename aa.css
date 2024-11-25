@@ -1,0 +1,341 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #bec9da;
+  color: rgb(0, 0, 0);
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-family: fantasy;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #0080ff;
+  border-radius: 7%;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  color: #ffffff;
+  font-weight: 1000;
+  -webkit-text-stroke: black;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-technical-electric-image_443494.jpg');
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.banner-content {
+  display: flex;
+}
+
+
+
+
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.clients .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+
+.clients .cll h2 {
+  margin-bottom: 20px;
+  /* Add spacing below the heading if needed */
+}
+
+.clients .logos img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .clients .logos img {
+    width: 70px;
+    margin: 5px;
+  }
+}
+
+.blockchain-power {
+
+h1{
+  display: flex;
+  justify-content: center;
+
+}
+p{
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+    color: #b8a2a2;
+}
+
+}
+/* Section Styling */
+.helping-blockchain {
+  background-color: #f8fafc;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Container Styling */
+.helping-blockchain .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card Styling */
+.helping-blockchain .card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+  flex: 1 1 calc(20% - 40px); /* Flex width with responsive gap */
+  min-width: 180px;
+}
+
+.helping-blockchain .card.intro {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+  max-width: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.helping-blockchain h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.helping-blockchain p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 5px;
+}
+
+.helping-blockchain .icon {
+  font-size: 36px;
+  color: #34c759;
+  margin-bottom: 10px;
+}
+
+.helping-blockchain .number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+
+
+.blockchain-future{
+
+
+
+.blockchain-info {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.section-header h1 {
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 16px;
+  color: #666666;
+  margin: 0 0 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f3f4f6;
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.image-placeholder {
+  background-color: #d1d5db;
+  color: #333333;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  font-size: 14px;
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+}
+
+
+
+
+  /* Contact Us */
+  .contact {
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .contact-right form input,
+  .contact-right form textarea,
+  .contact-right form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .contact {
+      flex-direction: column;
+    }
+
+    .contact-left img {
+      width: 100%;
+    }
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer a {
+    color: #ff9900;
+    margin: 0 5px;
+    text-decoration: none;
+  }
